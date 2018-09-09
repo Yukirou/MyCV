@@ -44,23 +44,19 @@ nav > div > a:hover{
 #content{
 	padding: 5px;
 	display: grid;
-	border: 1px solid black;
 	grid-template-columns: 70% 30%;
+	color: white;
 }
 
 	
 #content > article{
 	padding: 5px;
 	margin: 0px 2.5px;
-	color: white;
-	border: 1px solid black;
-}
+	}
 
 #content > aside{
 	padding: 5px;
 	margin: 0px 2.5px;
-	color: white;
-	border: 1px solid black;
 }
 
 footer{
@@ -83,11 +79,14 @@ aside > a > img{
 	grid-template-columns: 40% 60%;
 }
 
-#content > #portfolio > #head{
-	
-}
-	
- #content > #portfolio > #data{
-
+img{
+	width: 60%;
+	height: 60%;
 }
 
+#about{
+	padding: 5px;
+	display: grid;
+	text-align: center;
+	color: white;
+}

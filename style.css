@@ -1,0 +1,26 @@
+body{
+	background-color: #3366ff;
+}
+
+header{
+	background-color: #12123b;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-family: "georgia";
+}
+
+nav{
+	background-color: #30309c;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-family: "georgia";
+	padding: 5px 0px; 
+}
+
+nav > div{
+	background-color:#3377ff;
+	margin: 0px 10px; 
+	padding: 0px 5px;
+}
